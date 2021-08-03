@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+
+.eyes {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+}
+
+.mouth {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.tooth {
+    width: 70%;
+    height: 50px;
+    background: rgb(228, 142, 155);
+    display: inline-block;
+    margin: 40px;
+    border-radius: 0% 0 100% 100%;
+    position: relative;
+}
+
+.tong {
+    width: 100px;
+    height: 100px;
+    background: rgb(228, 86, 86);
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    border-radius: 0% 0 50% 50%;
+}
+.trait{
+    width: 2px;
+    height: 100px;
+    border-left: 1px solid rgb(209, 114, 114);
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+}
